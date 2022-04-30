@@ -1,0 +1,20 @@
+﻿<Window x:Name="MainWin" x:Class="MinMaxSardov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MinMaxSardov"
+        mc:Ignorable="d"
+        Title="Сардов_Вариант_20" Height="336" Width="328" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="mainGrid">
+        <TextBox x:Name="masTextBox" Height="70" Margin="10,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="295"/>
+        <TextBox x:Name="nTextBox" Height="23" Margin="185,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+        <Label x:Name="nLabel" Content="Введите N (длина массива):" HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" VerticalAlignment="Top" Width="170" Padding="5,2,5,5" VerticalContentAlignment="Center"/>
+        <Button x:Name="masButton" Content="Заполнить" HorizontalAlignment="Left" Margin="120,144,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="masButton_Click"/>
+        <Label x:Name="minLabel" Content="Номер минимального элемента:" HorizontalAlignment="Left" Margin="10,181,0,0" VerticalAlignment="Top" Padding="5,2,5,5" Width="195"/>
+        <TextBox x:Name="minTextBox" Height="23" Margin="210,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="95"/>
+        <Label x:Name="maxLabel" Content="Номер максимального элемента:" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" Padding="5,2,5,5" Width="195"/>
+        <TextBox x:Name="maxTextBox" HorizontalAlignment="Left" Height="23" Margin="210,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95" IsReadOnly="True"/>
+
+    </Grid>
+</Window>
